@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Kalkulator Aritmatika</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="head">
+        <p>Muhamad Hisyam Fadhila</p>
+        <p>41523010189</p>
+    </header>
+  <div class="calculator">
+    <h1>Kalkulator Aritmatika</h1>
+    <input type="number" id="num1" placeholder="Angka pertama">
+    <input type="number" id="num2" placeholder="Angka kedua">
+    
+    <div class="buttons">
+      <button onclick="hitung('+')">+</button>
+      <button onclick="hitung('-')">-</button>
+      <button onclick="hitung('*')">×</button>
+      <button onclick="hitung('/')">÷</button>
+      <button onclick="hitung('%')">%</button>
+    </div>
+    
+    <p>Hasil: <span id="hasil">0</span></p>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
